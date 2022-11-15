@@ -1,0 +1,8 @@
+project File_IO is
+   for Main use ("file_input.adb");
+   for Object_Dir use ".objs";
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-g");
+   end Compiler;
+end File_IO;

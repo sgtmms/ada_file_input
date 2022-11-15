@@ -1,0 +1,68 @@
+V "GNAT Lib v2021"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+
+U file_input%b		file_input.adb		120f168d NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20221113035556 76789da1 ada%s
+D a-except.ads		20221113035555 946f3014 ada.exceptions%s
+D a-ioexce.ads		20221113035555 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20221113035555 119b8fb3 ada.streams%s
+D a-string.ads		20221113035555 90ac6797 ada.strings%s
+D a-sttebu.ads		20221113035555 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20221113035555 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20221113035555 9eaa38c6 ada.tags%s
+D a-textio.ads		20221113035555 aef4d56d ada.text_io%s
+D a-unccon.ads		20221113035555 0e9b276f ada.unchecked_conversion%s
+D file_input.adb	20221115042001 bcfbc3e0 file_input%b
+D interfac.ads		20221113035556 edec285f interfaces%s
+D i-cstrea.ads		20221113035556 e53d8b8e interfaces.c_streams%s
+D system.ads		20221113035557 a2da961d system%s
+D s-crtl.ads		20221113035556 0ebbdb71 system.crtl%s
+D s-exctab.ads		20221113035556 54135002 system.exception_table%s
+D s-ficobl.ads		20221113035556 078245e4 system.file_control_block%s
+D s-parame.ads		20221113035557 4752c4cb system.parameters%s
+D s-putima.ads		20221113035557 4e095881 system.put_images%s
+D s-secsta.ads		20221113035557 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20221113035557 a7318a92 system.soft_links%s
+D s-stache.ads		20221113035557 a37c21ec system.stack_checking%s
+D s-stalib.ads		20221113035557 472fbca8 system.standard_library%s
+D s-stoele.ads		20221113035557 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20221113035554 ed88f8fb system.storage_elements%b
+D s-traent.ads		20221113035557 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20221113035557 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20221113035557 1b7d22d2 system.wch_con%s
+D unchconv.ads		20221113035557 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [file_input standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 11|1w10 1r27
+65P9*File_Type 11|4r16
+67n23*In_File{67E9} 11|14r13
+67n32*Out_File{67E9} 11|8r15
+97U14*Create 11|8s4
+112U14*Open 11|14s4
+127U14*Close 11|12s4 18s4
+144U14*Reset 11|10s4
+310V13*End_Of_File{boolean} 11|15s14
+490V13*Get_Line{string} 11|16s17
+496U14*Put_Line 11|9s4 11s4
+506U14*Put_Line 11|16s7
+X 11 file_input.adb
+3U11*File_Input 3b11 19l5 19t15
+4p4 F{9|65P9} 8m12 8r12 9r14 10m11 10r11 11r14 12m11 12r11 14m10 14r10 15r27
+. 16r27 18m11 18r11
+5a4 File_Name{string} 14r22
+6a4 Practice_File_Name{string} 8r25
+
